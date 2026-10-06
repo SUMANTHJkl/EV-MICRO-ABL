@@ -1,0 +1,32 @@
+# Python Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data files (Ignore raw CSV to keep repo lightweight, pipeline auto-downloads it)
+data/raw/
+*.csv
+
+# Exceptions: track clean processed sample if desired
+!data/processed/electricity_carbon_clean.csv
+
+# IDE and Agent configuration directories
+.vscode/
+.idea/
+.agents/
+.claude/
+.gemini/
+
+# Streamlit runtime
+.streamlit/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
